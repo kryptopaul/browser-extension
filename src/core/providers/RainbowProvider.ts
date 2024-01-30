@@ -33,7 +33,7 @@ export type RequestResponse =
  * @link https://eips.ethereum.org/EIPS/eip-1193
  * @link https://eips.ethereum.org/EIPS/eip-1102
  */
-export class RainbowInjectedProvider extends EventEmitter {
+export class RainbowProvider extends EventEmitter {
   chainId: ChainIdHex = '0x1';
   connected = false;
   isRainbow = true;
@@ -41,7 +41,7 @@ export class RainbowInjectedProvider extends EventEmitter {
   isMetaMask = true;
   networkVersion = '1';
   selectedAddress: string | undefined;
-  providers: (RainbowInjectedProvider | Ethereum)[] | undefined = undefined;
+  providers: (RainbowProvider | Ethereum)[] | undefined = undefined;
 
   #isUnlocked = true;
   requestId = 0;

@@ -1,3 +1,3 @@
-export { RainbowInjectedProvider } from './RainbowInjectedProvider';
+export { RainbowProvider } from './RainbowProvider';
 export * from './proxy';
-export type { ChainIdHex } from './RainbowInjectedProvider';
+export type { ChainIdHex } from './RainbowProvider';

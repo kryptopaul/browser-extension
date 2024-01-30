@@ -3,7 +3,7 @@ import { CallbackOptions } from '../messengers/internal/createMessenger';
 import {
   RequestArguments,
   RequestResponse,
-} from '../providers/RainbowInjectedProvider';
+} from '../providers/RainbowProvider';
 
 import { createTransport } from './internal/createTransport';
 
